@@ -294,8 +294,8 @@ const events: Event[] = [
   {
     description: "You learned to ride a bike!",
     choices: [
-      { text: "Ride every day", effect: { health: 3, happiness: 2 } },
-      { text: "Not interested", effect: { happiness: -1 } },
+      { text: "I rode every day", effect: { health: 3, happiness: 2 } },
+      { text: "I was not interested", effect: { happiness: -1 } },
     ],
     minAge: 4,
     maxAge: 8,
@@ -303,8 +303,8 @@ const events: Event[] = [
   {
     description: "You got invited to a birthday party.",
     choices: [
-      { text: "Go and have fun", effect: { happiness: 4 } },
-      { text: "Stay home", effect: { happiness: -2, smarts: 1 } },
+      { text: "I went and had fun", effect: { happiness: 4 } },
+      { text: "I stayed home", effect: { happiness: -2, smarts: 1 } },
     ],
     minAge: 5,
     maxAge: 12,
@@ -313,8 +313,8 @@ const events: Event[] = [
   {
     description: "You have a big exam coming up.",
     choices: [
-      { text: "Study hard", effect: { smarts: 5, happiness: -2 } },
-      { text: "Go out with friends", effect: { happiness: 3, smarts: -2 } },
+      { text: "I studied hard", effect: { smarts: 5, happiness: -2 } },
+      { text: "I went out with friends", effect: { happiness: 3, smarts: -2 } },
     ],
     minAge: 13,
     maxAge: 18,
@@ -322,8 +322,8 @@ const events: Event[] = [
   {
     description: "You developed a crush on a classmate.",
     choices: [
-      { text: "Ask them out", effect: { happiness: 3 } },
-      { text: "Keep it to yourself", effect: { happiness: -1, smarts: 1 } },
+      { text: "I asked them out", effect: { happiness: 3 } },
+      { text: "I kept it to myself", effect: { happiness: -1, smarts: 1 } },
     ],
     minAge: 13,
     maxAge: 18,
@@ -332,8 +332,8 @@ const events: Event[] = [
   {
     description: "You are offered a scholarship to university.",
     choices: [
-      { text: "Accept", effect: { smarts: 5, happiness: 2 } },
-      { text: "Decline", effect: { happiness: -2 } },
+      { text: "I accepted", effect: { smarts: 5, happiness: 2 } },
+      { text: "I declined", effect: { happiness: -2 } },
     ],
     minAge: 18,
     maxAge: 22,
@@ -341,8 +341,8 @@ const events: Event[] = [
   {
     description: "You start your first job as a barista.",
     choices: [
-      { text: "Work hard", effect: { happiness: 2, smarts: 2 } },
-      { text: "Slack off", effect: { happiness: -1, smarts: -2 } },
+      { text: "I worked hard", effect: { happiness: 2, smarts: 2 } },
+      { text: "I slacked off", effect: { happiness: -1, smarts: -2 } },
     ],
     minAge: 18,
     maxAge: 25,
@@ -351,8 +351,8 @@ const events: Event[] = [
   {
     description: "You meet someone special at a party.",
     choices: [
-      { text: "Start dating", effect: { happiness: 5 } },
-      { text: "Stay friends", effect: { happiness: 2 } },
+      { text: "I started dating", effect: { happiness: 5 } },
+      { text: "I stayed friends", effect: { happiness: 2 } },
     ],
     minAge: 16,
     maxAge: 35,
@@ -360,8 +360,8 @@ const events: Event[] = [
   {
     description: "You have an argument with your partner.",
     choices: [
-      { text: "Apologize", effect: { happiness: 2 } },
-      { text: "Ignore it", effect: { happiness: -3 } },
+      { text: "I apologized", effect: { happiness: 2 } },
+      { text: "I ignored it", effect: { happiness: -3 } },
     ],
     minAge: 18,
     maxAge: 60,
@@ -370,8 +370,8 @@ const events: Event[] = [
   {
     description: "You get a promotion at work!",
     choices: [
-      { text: "Celebrate", effect: { happiness: 4, smarts: 2 } },
-      { text: "Stay focused", effect: { smarts: 3 } },
+      { text: "I celebrated", effect: { happiness: 4, smarts: 2 } },
+      { text: "I stayed focused", effect: { smarts: 3 } },
     ],
     minAge: 22,
     maxAge: 65,
@@ -379,8 +379,8 @@ const events: Event[] = [
   {
     description: "You are offered a new job in another city.",
     choices: [
-      { text: "Accept and move", effect: { happiness: 3, smarts: 2 } },
-      { text: "Stay where you are", effect: { happiness: -1 } },
+      { text: "I accepted and moved", effect: { happiness: 3, smarts: 2 } },
+      { text: "I stayed where I was", effect: { happiness: -1 } },
     ],
     minAge: 25,
     maxAge: 50,
@@ -389,8 +389,8 @@ const events: Event[] = [
   {
     description: "You decide to start exercising regularly.",
     choices: [
-      { text: "Stick with it", effect: { health: 7, happiness: 2 } },
-      { text: "Give up", effect: { health: -2 } },
+      { text: "I stuck with it", effect: { health: 7, happiness: 2 } },
+      { text: "I gave up", effect: { health: -2 } },
     ],
     minAge: 15,
     maxAge: 80,
@@ -398,8 +398,8 @@ const events: Event[] = [
   {
     description: "You are feeling stressed at work.",
     choices: [
-      { text: "Take a vacation", effect: { happiness: 5, health: 2 } },
-      { text: "Push through", effect: { health: -3, smarts: 2 } },
+      { text: "I took a vacation", effect: { happiness: 5, health: 2 } },
+      { text: "I pushed through", effect: { health: -3, smarts: 2 } },
     ],
     minAge: 25,
     maxAge: 65,
@@ -408,8 +408,8 @@ const events: Event[] = [
   {
     description: "You retire from your job.",
     choices: [
-      { text: "Travel the world", effect: { happiness: 6, health: -2 } },
-      { text: "Relax at home", effect: { health: 2 } },
+      { text: "I traveled the world", effect: { happiness: 6, health: -2 } },
+      { text: "I relaxed at home", effect: { health: 2 } },
     ],
     minAge: 65,
     maxAge: 100,
@@ -417,8 +417,8 @@ const events: Event[] = [
   {
     description: "You become a grandparent!",
     choices: [
-      { text: "Spend time with grandkids", effect: { happiness: 5 } },
-      { text: "Focus on hobbies", effect: { happiness: 2, smarts: 2 } },
+      { text: "I spent time with my grandkids", effect: { happiness: 5 } },
+      { text: "I focused on hobbies", effect: { happiness: 2, smarts: 2 } },
     ],
     minAge: 60,
     maxAge: 100,
@@ -427,9 +427,9 @@ const events: Event[] = [
   {
     description: "Your parents want to enroll you in piano lessons. What do you do?",
     choices: [
-      { text: "Accept and practice diligently", effect: { smarts: 5, happiness: 2 } },
-      { text: "Accept but slack off", effect: { smarts: 2, happiness: -1 } },
-      { text: "Refuse", effect: { happiness: 3, smarts: -2 } },
+      { text: "I accepted and practiced diligently", effect: { smarts: 5, happiness: 2 } },
+      { text: "I accepted but slacked off", effect: { smarts: 2, happiness: -1 } },
+      { text: "I refused", effect: { happiness: 3, smarts: -2 } },
     ],
     minAge: 4,
     maxAge: 12,
@@ -437,8 +437,8 @@ const events: Event[] = [
   {
     description: "You made a new friend at school!",
     choices: [
-      { text: "Hang out often", effect: { happiness: 5 } },
-      { text: "Focus on studies instead", effect: { smarts: 3, happiness: -2 } },
+      { text: "I hung out often", effect: { happiness: 5 } },
+      { text: "I focused on studies instead", effect: { smarts: 3, happiness: -2 } },
     ],
     minAge: 6,
     maxAge: 18,
@@ -446,16 +446,16 @@ const events: Event[] = [
   {
     description: "You caught a cold.",
     choices: [
-      { text: "Rest and recover", effect: { health: 5, happiness: -1 } },
-      { text: "Ignore it", effect: { health: -5, smarts: 1 } },
+      { text: "I rested and recovered", effect: { health: 5, happiness: -1 } },
+      { text: "I ignored it", effect: { health: -5, smarts: 1 } },
     ],
     minAge: 2,
   },
   {
     description: "You won a local art contest!",
     choices: [
-      { text: "Celebrate!", effect: { happiness: 7 } },
-      { text: "Stay humble", effect: { smarts: 2 } },
+      { text: "I celebrated!", effect: { happiness: 7 } },
+      { text: "I stayed humble", effect: { smarts: 2 } },
     ],
     minAge: 8,
     maxAge: 18,
@@ -463,8 +463,8 @@ const events: Event[] = [
   {
     description: "You got into a fight at school.",
     choices: [
-      { text: "Fight back", effect: { health: -10, happiness: 2 } },
-      { text: "Walk away", effect: { happiness: -2, smarts: 2 } },
+      { text: "I fought back", effect: { health: -10, happiness: 2 } },
+      { text: "I walked away", effect: { happiness: -2, smarts: 2 } },
     ],
     minAge: 10,
     maxAge: 18,
@@ -472,8 +472,8 @@ const events: Event[] = [
   {
     description: "You found a stray puppy.",
     choices: [
-      { text: "Adopt it", effect: { happiness: 5, health: -2 } },
-      { text: "Leave it", effect: { happiness: -2 } },
+      { text: "I adopted it", effect: { happiness: 5, health: -2 } },
+      { text: "I left it", effect: { happiness: -2 } },
     ],
     minAge: 5,
     maxAge: 30,
@@ -481,8 +481,8 @@ const events: Event[] = [
   {
     description: "You aced your exams!",
     choices: [
-      { text: "Celebrate with friends", effect: { happiness: 4 } },
-      { text: "Study even harder", effect: { smarts: 5, happiness: -1 } },
+      { text: "I celebrated with friends", effect: { happiness: 4 } },
+      { text: "I studied even harder", effect: { smarts: 5, happiness: -1 } },
     ],
     minAge: 12,
     maxAge: 22,
@@ -490,8 +490,8 @@ const events: Event[] = [
   {
     description: "You got your first job offer!",
     choices: [
-      { text: "Accept it", effect: { happiness: 5, smarts: 2 } },
-      { text: "Decline and wait", effect: { happiness: -2, smarts: 3 } },
+      { text: "I accepted it", effect: { happiness: 5, smarts: 2 } },
+      { text: "I declined and waited", effect: { happiness: -2, smarts: 3 } },
     ],
     minAge: 18,
     maxAge: 30,
@@ -535,7 +535,7 @@ function renderTimeline() {
     grouped[age].push(entry.replace(/^Age \d+ years: /, ''));
   });
   return `
-    <div class="timeline-card">
+    <div class="timeline-card" id="timeline-log" style="max-height:180px;overflow-y:auto;">
       <div class="timeline-birth" style="background:#f5f7fa;padding:1em 1.2em;border-radius:10px;margin-bottom:1.2em;font-size:1.05em;box-shadow:0 1px 6px rgba(30,40,90,0.06);color:#333;">${birthSummary}</div>
       ${Object.entries(grouped).map(([age, events]) => `
         <div class="timeline-age">${age}</div>
@@ -545,7 +545,23 @@ function renderTimeline() {
   `;
 }
 
-function renderTabs(active = activeTab) {
+// After rendering, scroll timeline to bottom
+function scrollTimelineToBottom() {
+  setTimeout(() => {
+    const log = document.getElementById('timeline-log');
+    if (log) log.scrollTop = log.scrollHeight;
+  }, 0);
+}
+
+// Call scrollTimelineToBottom after renderCharacter
+const originalRenderCharacter = renderCharacter;
+renderCharacter = function() {
+  originalRenderCharacter.apply(this, arguments);
+  scrollTimelineToBottom();
+};
+
+// Render navigation row with Age button in the center, two tabs on each side
+function renderNavRow(active = activeTab) {
   const tabs = [
     { key: 'main', label: 'Main' },
     { key: 'occupation', label: 'Occupation' },
@@ -553,13 +569,19 @@ function renderTabs(active = activeTab) {
     { key: 'relationships', label: 'Relationships' },
     { key: 'activities', label: 'Activities' },
   ];
+  // Layout: [Tab0] [Tab1] [AgeBtn] [Tab2] [Tab3] [Tab4]
   return `
-    <div class="tabs">
-      ${tabs.map(tab => `<button class="tab-btn${active === tab.key ? ' active' : ''}" data-tab="${tab.key}">${tab.label}</button>`).join('')}
+    <div class="nav-row">
+      <div class="nav-side nav-left">
+        ${tabs.slice(0, 2).map(tab => `<button class="tab-btn${active === tab.key ? ' active' : ''}" data-tab="${tab.key}">${tab.label}</button>`).join('')}
+      </div>
+      <div class="nav-age-btn">
+        ${currentEvent || activeTab !== 'main' ? '' : '<button id="age-up" type="button">Age +</button>'}
+      </div>
+      <div class="nav-side nav-right">
+        ${tabs.slice(2).map(tab => `<button class="tab-btn${active === tab.key ? ' active' : ''}" data-tab="${tab.key}">${tab.label}</button>`).join('')}
+      </div>
     </div>
-    ${active === 'assets' ? renderAssetsTab() : ''}
-    ${active === 'relationships' ? renderRelationshipsTab() : ''}
-    ${active === 'occupation' ? renderOccupationTab() : ''}
   `;
 }
 
@@ -703,11 +725,10 @@ function renderEventModal(event: Event) {
   });
 }
 
-// Update renderCharacter to handle activity tab logic
+// Update renderCharacter to use the new nav row at the bottom
 function renderCharacter() {
   const app = document.querySelector<HTMLDivElement>('#app');
   if (!app) return;
-  // Remove dark toggle from header
   if (gameOver) {
     app.innerHTML = `
       <div class="main-container">
@@ -732,9 +753,9 @@ function renderCharacter() {
           </div>
           <button id="new-life-btn" type="button">Start New Life</button>
         </div>
-        ${renderTabs()}
+        ${renderNavRow(activeTab)}
+        ${renderDarkToggleFab()}
       </div>
-      ${renderDarkToggleFab()}
     `;
     setTimeout(() => {
       document.getElementById('new-life-btn')?.addEventListener('click', () => {
@@ -766,7 +787,11 @@ function renderCharacter() {
         <span class="age-label" style="margin-left:1.2em;font-weight:600;">Age: ${character.age}</span>
       </div>
       ${character.school ? `<div style='margin:1em 0;'><b>School:</b> ${character.school}</div>` : ''}
-      ${renderTimeline()}
+      ${activeTab === 'activities' ? renderActivitiesTab() : ''}
+      ${activeTab === 'assets' ? renderAssetsTab() : ''}
+      ${activeTab === 'relationships' ? renderRelationshipsTab() : ''}
+      ${activeTab === 'occupation' ? renderOccupationTab() : ''}
+      ${activeTab === 'main' ? renderTimeline() : ''}
       <div class="stats-section">
         <div class="stat">
           <span class="stat-label"><span class="stat-emoji">😊</span> Happiness</span>
@@ -789,13 +814,9 @@ function renderCharacter() {
           <span class="stat-value">${character.looks}%</span>
         </div>
       </div>
-      <div class="age-btn-container">
-        ${currentEvent || activeTab !== 'main' ? '' : '<button id="age-up" type="button">Age +</button>'}
-      </div>
-      ${activeTab === 'activities' ? renderActivitiesTab() : ''}
-      ${renderTabs(activeTab)}
+      ${renderNavRow(activeTab)}
+      ${renderDarkToggleFab()}
     </div>
-    ${renderDarkToggleFab()}
   `;
   if (!currentEvent && !gameOver && activeTab === 'main') {
     document.getElementById('age-up')?.addEventListener('click', ageUp);
@@ -823,17 +844,17 @@ function renderCharacter() {
       btn.addEventListener('click', () => {
         if (!cat) return;
         const activity = availableActivities[i];
-        let logMsg = `Age ${character.age} years: Did activity: ${activity.text}`;
+        let logMsg = `Age ${character.age} years: I did activity: ${activity.text}`;
         // Special logic for crime activities
         if (cat.key === 'crime') {
           if (Math.random() < 0.4) { // 40% chance arrested
             character.happiness = Math.max(0, character.happiness - 10);
             character.health = Math.max(0, character.health - 5);
             if (character.balance >= 100) character.balance -= 100;
-            logMsg = `Age ${character.age} years: Tried to ${activity.text.toLowerCase()} — You were ARRESTED! (-10 happiness, -5 health, -$100)`;
+            logMsg = `Age ${character.age} years: I tried to ${activity.text.toLowerCase()} — I was ARRESTED! (-10 happiness, -5 health, -$100)`;
           } else {
             character.happiness = Math.min(100, character.happiness + 2);
-            logMsg = `Age ${character.age} years: Tried to ${activity.text.toLowerCase()} — You ESCAPED! (+2 happiness)`;
+            logMsg = `Age ${character.age} years: I tried to ${activity.text.toLowerCase()} — I ESCAPED! (+2 happiness)`;
           }
         }
         lifeSummary.push(logMsg);
@@ -887,7 +908,7 @@ function ageUp() {
   // Example: join a team at age 10
   if (character.age === 10) {
     const team = pickTeamByStats();
-    lifeSummary.push(`At age 10: Joined the ${team}.`);
+    lifeSummary.push(`At age 10: I joined the ${team}.`);
     saveGame();
   }
   // Example: make a new friend at age 8
@@ -1051,7 +1072,7 @@ function ageParentsAndCheckDeath() {
 function addFriend() {
   const friend = generateFriendProfile();
   character.friends.push(friend);
-  lifeSummary.push(`At age ${character.age}: Became friends with ${friend.name} (${friend.gender}).`);
+  lifeSummary.push(`At age ${character.age}: I became friends with ${friend.name} (${friend.gender}).`);
   saveGame();
   showFriendProfile(friend);
   renderCharacter();
@@ -1083,9 +1104,9 @@ function applyForJob(jobName: string) {
     character.occupation = job.name;
     character.occupationType = job.type as any;
     character.balance += job.pay;
-    lifeSummary.push(`At age ${character.age}: Hired as ${job.name} (+$${job.pay})`);
+    lifeSummary.push(`At age ${character.age}: I hired as ${job.name} (+$${job.pay})`);
   } else {
-    lifeSummary.push(`At age ${character.age}: Applied for ${job.name} but was rejected.`);
+    lifeSummary.push(`At age ${character.age}: I applied for ${job.name} but was rejected.`);
   }
   saveGame();
   renderCharacter();
@@ -1140,7 +1161,7 @@ function generateParents(lastName: string): Parent[] {
 function checkAssignSchool() {
   if (!character.school && character.age >= 5) {
     character.school = randomSchoolName();
-    lifeSummary.push(`At age ${character.age}: Started attending ${character.school}.`);
+    lifeSummary.push(`At age ${character.age}: I started going to ${character.school}.`);
     saveGame();
   }
 }
@@ -1196,6 +1217,95 @@ function showFriendProfile(friend: Friend) {
     </div>
   `);
 }
+
+// Add CSS for nav row (inject if not present)
+function ensureNavRowStyles() {
+  if (document.getElementById('nav-row-styles')) return;
+  const style = document.createElement('style');
+  style.id = 'nav-row-styles';
+  style.innerHTML = `
+    .nav-row {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      gap: 0.3em;
+      margin: 1.2em 0 0.5em 0;
+      width: 100%;
+      flex-wrap: wrap;
+    }
+    .nav-side {
+      display: flex;
+      flex-direction: row;
+      gap: 0.3em;
+    }
+    .nav-age-btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 0.5em;
+    }
+    .nav-age-btn #age-up {
+      width: 64px;
+      height: 64px;
+      font-size: 1.1em;
+      border-radius: 50%;
+      padding: 0;
+      margin: 0;
+    }
+    .tab-btn {
+      min-width: 70px;
+      font-size: 1em;
+      padding: 0.5em 1em;
+      border-radius: 22px;
+      margin: 0;
+    }
+    @media (max-width: 700px) {
+      .nav-row {
+        gap: 0.15em;
+        margin: 0.7em 0 0.2em 0;
+      }
+      .nav-age-btn {
+        margin: 0 0.2em;
+      }
+      .tab-btn {
+        min-width: 48px;
+        font-size: 0.85em;
+        padding: 0.3em 0.7em;
+      }
+      .nav-age-btn #age-up {
+        width: 44px;
+        height: 44px;
+        font-size: 0.95em;
+      }
+    }
+    @media (max-width: 430px) {
+      .nav-row {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0.2em;
+      }
+      .nav-side {
+        justify-content: center;
+        gap: 0.1em;
+      }
+      .tab-btn {
+        min-width: 38px;
+        font-size: 0.8em;
+        padding: 0.2em 0.5em;
+      }
+      .nav-age-btn #age-up {
+        width: 36px;
+        height: 36px;
+        font-size: 0.8em;
+      }
+    }
+  `;
+  document.head.appendChild(style);
+}
+
+// Ensure styles are injected on startup
+ensureNavRowStyles();
 
 // Load game on startup
 loadGame();
