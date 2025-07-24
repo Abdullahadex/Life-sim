@@ -164,6 +164,10 @@ function loadGame() {
       gameOver = parsed.gameOver || false;
     } catch {}
   }
+  // If no save or character is missing a name, start a new game
+  if (!character.name) {
+    restartGame();
+  }
 }
 
 // Dark mode toggle logic
