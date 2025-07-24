@@ -553,13 +553,6 @@ function scrollTimelineToBottom() {
   }, 0);
 }
 
-// Call scrollTimelineToBottom after renderCharacter
-const originalRenderCharacter = renderCharacter;
-renderCharacter = function() {
-  originalRenderCharacter.apply(this, arguments);
-  scrollTimelineToBottom();
-};
-
 // Render navigation row with Age button in the center, two tabs on each side
 function renderNavRow(active = activeTab) {
   const tabs = [
@@ -893,6 +886,7 @@ function renderCharacter() {
       }
     });
   });
+  scrollTimelineToBottom();
 }
 
 // Restore ageUp and choose functions
